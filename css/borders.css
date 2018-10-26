@@ -1,3 +1,7 @@
 table, th, td {
     border: 1px solid black;
 }
+.red { color: red }
+#poll p { text-align: right }
+.brown {color:brown}
+.orangered {color:orangered}
