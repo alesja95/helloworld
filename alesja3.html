@@ -43,28 +43,41 @@
     </nav>
     <br>
     <br>
-    <div class="my-carousel" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-        <div>
-            <h3>1</h3>
-        </div>
-        <div>
-            <h3>2</h3>
-        </div>
-        <div>
-            <h3>3</h3>
-        </div>
-        <div>
-            <h3>4</h3>
-        </div>
-        <div>
-            <h3>5</h3>
-        </div>
-        <div>
-            <h3>6</h3>
-        </div>
-    </div>
+
     <div class="container">
         <div class="row">
+            <div class="my-carousel">
+                <div>
+                     <a href="#">
+                     <img src="http://www.towncats.org/wp-content/uploads/2018/05/29342614_1703747599694906_2029158050614476800_n-500x300.jpg">
+                     </a>
+                </div>
+                <div>
+                    <a href="#">
+                    <img src="https://iheartcats.com/wp-content/uploads/2015/02/shutterstock_210266062.jpg">
+                     </a>     
+                </div>
+                <div>
+                    <a href="#">
+                   <img src="http://news.vet.tufts.edu/wp-content/uploads/cat-close-up-500x300.jpg">
+                   </a>
+                </div>
+                <div>
+                    <a href="#">
+                     <img src="https://pets.amerikanki.com/wp-content/uploads/2013/12/Fight-Cat-Odor-in-Your-Home-500x300.jpg">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                    <img src="https://www.ilovepets.com/wp-content/uploads/2017/12/featured-image-1.jpg">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                    <img src="http://cdn.mobsocmedia.com/uploads/sites/33/20161123174142/81BE4mT-500x300.jpg">
+                    </a>
+                </div>
+            </div>
             <div class="col-lg-12">
                 <h1 class="page-header" style="
                             color: white;
@@ -184,10 +197,15 @@
             <script type="text/javascript" src="node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
-            
+
             <script type="text/javascript">
                 $(document).ready(function () {
-                    $('.my-carousel').slick();
+                    $('.my-carousel').slick({
+                        infinite: true,
+                        dots: true,
+                        slidesToShow: 2,
+                        arrows: true
+                    });
                 });
             </script>
         </div>
