@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alesja95/helloworld#readme",
   "dependencies": {
+    "jquery-migrate": "^3.0.1",
     "slick-carousel": "^1.8.1"
   }
 }
