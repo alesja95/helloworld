@@ -7,7 +7,10 @@
     <title>Alesja and  Co</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/borders.css" rel="stylesheet">
-  </head>
+
+<link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
+</head>
   <body  style="background:rgb(92, 89, 89)">
         <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container">
@@ -38,6 +41,14 @@
             </nav>
             <br>
             <br>
+            <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+                <div><h3>1</h3></div>
+                <div><h3>2</h3></div>
+                <div><h3>3</h3></div>
+                <div><h3>4</h3></div>
+                <div><h3>5</h3></div>
+                <div><h3>6</h3></div>
+              </div>
             <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -149,5 +160,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
   </body>
 </html>

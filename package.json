@@ -1,0 +1,22 @@
+{
+  "name": "alesja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "alesja3.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alesja95/helloworld.git"
+  },
+  "author": "alesja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alesja95/helloworld/issues"
+  },
+  "homepage": "https://github.com/alesja95/helloworld#readme",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
